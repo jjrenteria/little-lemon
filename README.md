@@ -19,7 +19,7 @@ When a user presses the Logout button on the **Profile** destination the app sho
 
 ## Onboarding screen
 
-Before new users start placing orders, they’ll need to be registered into the system. In this exercise, you’ll make this possible by creating an onboarding flow to collect a user’s first name, last name and email address.
+Before new users start placing orders, they’ll need to be registered into the system. You’ll make this possible by creating an onboarding flow to collect a user’s first name, last name and email address.
 The most suitable option for simple data independent of other values is to use the SharedPreferences.
 
 ### Profile screen  
@@ -37,3 +37,6 @@ After retrieving menu items from the network, store the menu in the local room d
 ### Home screen
 When users access the **Home** screen of the Little Lemon food ordering app, they’ll find a full list of all the items offered by the restaurant. But what if a user only wants to view a specific item, rather than navigating through everything or finding a particular dish by name? Fortunately, you can display only the results that match a search phrase.
 There are multiple ways to filter the menu items. In fact, to develop the menu breakdown section you also use filtering. By using the category attribute present in the JSON you can break down the menu into categories such as Starters, Mains, Desserts and Drinks. When a user taps on a category button in the Menu breakdown section only menu items from the given category should display.
+
+### Wireframe
+> <img src="images/Onboarding.png" width="25%">  <img src="images/Home.png" width="25%">  <img src="images/Profile.png" width="25%">
