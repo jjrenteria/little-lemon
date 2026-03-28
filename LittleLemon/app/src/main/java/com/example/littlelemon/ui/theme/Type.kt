@@ -2,9 +2,11 @@ package com.example.littlelemon.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
+import com.example.littlelemon.R
 
 // Set of Material typography styles to start with
 val Typography = Typography(
@@ -31,4 +33,12 @@ val Typography = Typography(
         letterSpacing = 0.5.sp
     )
     */
+)
+
+val KarlaFontFamily = FontFamily(
+    Font(R.font.karla_regular, FontWeight.Normal)
+)
+
+val MarkaziFontFamily = FontFamily(
+    Font(R.font.markazitext_regular, FontWeight.Normal)
 )

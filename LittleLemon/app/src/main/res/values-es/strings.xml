@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Little Lemon</string>
+    <string name="personal_info">Información personal</string>
+    <string name="first_name">Nombre</string>
+    <string name="last_name">Apellidos</string>
+    <string name="email">Correo</string>
+    <string name="know_you">Vamos a conocerte</string>
+    <string name="register">Registro</string>
+    <string name="register_nok">Registro fallido. Por favor, introduzca todos los datos.</string>
+    <string name="register_successful">¡Registro exitoso!</string>
+    <string name="profile">Información del perfil</string>
+    <string name="logout">Salir</string>
+    <string name="city">Monterrey</string>
+    <string name="short_description">Somos un restaurante mediterráneo de propiedad familiar, centrado en recetas tradicionales servidas con un toque moderno.</string>
+    <string name="enter_search_phrase">Introduzca la frase de búsqueda</string>
+</resources>
